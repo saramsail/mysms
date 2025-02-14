@@ -1,0 +1,56 @@
+.MB-20 {
+	margin-bottom: 20px;
+}
+.navbar {
+	height: 74px;
+	background-color: #393b3d;
+}
+.logo {
+	width: 211px;
+	color: #CCC;
+}
+.top-nav {
+	width: 769px;
+	padding-top: 25px;
+}
+.slider {
+	height: 400px;
+	background-color: #dfdfdf;
+}
+.left-col {
+	width: 300px;
+}
+.right-col {
+	width: 790px;
+}
+.caption p:nth-child(3) {
+	color: #d84f38;
+	font-weight: bold;
+}
+footer {
+	background: #f4f6f5;
+	height: 305px;
+	border-top: 1px solid #d3d6d3;
+}
+.footer-col-1 {
+	width: 350px;
+	margin-right: 45px;
+}
+.footer-col-2 {
+	width: 350px;
+}
+.footer-col-3 {
+	width: 350px;
+}
+.copyright {
+	background: #333;
+	height: 40px;
+}
+.product-box
+{
+	height: 420px;
+}
+.contact-form li
+{
+	margin-bottom: 20px;
+}

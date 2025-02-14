@@ -1,0 +1,29 @@
+Create Virtual Host 
+step1: go to C:/windows/system32/drivers/etc "HOST"
+127.0.0.1 mera_laptop.dev
+
+step2: go to xampp/apache/conf/extra/ "httpd-vhosts.conf"
+
+<VirtualHost 127.0.0.1:80>
+    DocumentRoot "D:/xampp/htdocs/student-7-8-tts/mera_laptop"
+    ServerName mera_laptop.dev
+</VirtualHost>
+
+
+--------------------------------------------------------------
+autoload.php
+$autoload['helper'] = array('form', 'file', 'text', 'url');
+--------------------------------------------------------------
+config.php
+$config['base_url'] = 'http://mera_laptop.dev/';
+
+$config['index_page'] = '';
+
+$config['global_xss_filtering'] = TRUE;
+
+$config['csrf_protection'] = TRUE;
+$config['csrf_token_name'] = 'csrf_test_name';
+$config['csrf_cookie_name'] = 'csrf_cookie_name';
+$config['csrf_expire'] = 7200;
+$config['csrf_regenerate'] = TRUE;
+$config['csrf_exclude_uris'] = array();
